@@ -1,0 +1,327 @@
+/*------------------------------*/
+/*==== General Styles Start ====*/
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+/*==== General Styles End ====*/
+/*----------------------------*/
+
+/*---------------------*/
+/*==== Fonts Start ====*/
+
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src:
+			url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Montserrat-Regular.otf')  format('opentype'),
+			url('../fonts/Montserrat-Regular.woff') format('woff'),
+			url('../fonts/Montserrat-Regular.ttf')  format('truetype'),
+			url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat-Light';
+	src:
+			url('../fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Montserrat-Light.otf')  format('opentype'),
+			url('../fonts/Montserrat-Light.woff') format('woff'),
+			url('../fonts/Montserrat-Light.ttf')  format('truetype'),
+			url('../fonts/Montserrat-Light.svg#Montserrat-Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src:
+			url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Montserrat-Bold.otf')  format('opentype'),
+			url('../fonts/Montserrat-Bold.woff') format('woff'),
+			url('../fonts/Montserrat-Bold.ttf')  format('truetype'),
+			url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*==== Fonts End ====*/
+/*-------------------*/
+
+/*----------------------*/
+/*==== Header Start ====*/
+
+/*==== Header End ====*/
+/*--------------------*/
+
+/*-------------------------------*/
+/*==== Section #blocks Start ====*/
+
+/*==== Section #blocks End ====*/
+/*-----------------------------*/
+
+/*---------------------------------*/
+/*==== Section #features Start ====*/
+
+/*==== Section #features End ====*/
+/*-------------------------------*/
+
+/*---------------------------------*/
+/*==== Section #about-us Start ====*/
+
+/*==== Section #about-us End ====*/
+/*-------------------------------*/
+
+/*---------------------------------*/
+/*==== Section #our-work Start ====*/
+
+/*==== Section #our-work End ====*/
+/*-------------------------------*/
+
+/*---------------------------------*/
+/*==== Section #services Start ====*/
+
+
+
+
+
+
+
+#services .container{
+	margin:0 auto;
+	background-color: #ffffff;
+}
+
+#services h1{
+	text-align: center;
+	font-family: 'Montserrat-Regular';
+	font-size: 36px;
+	margin-top: 92px;
+
+}
+#services .lines {
+	text-align: center;
+	margin-top: 25px;
+}
+
+#services .menu{
+	margin-top: 92px;
+}
+#services .section-menu{
+	display: inline;
+	background-color:#F8FCFF;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Montserrat-Bold';
+	height: 72px;
+	border:solid 1px #EBEBEB;
+	padding-top: 22px;
+	padding-bottom: 22px;
+
+}
+
+задаю габариты блоков меню
+#services .section-menu .first{
+	width: 193px;
+}
+#services .section-menu .second{
+	width: 190px;
+}
+#services .section-menu .third{
+	width: 191px;
+}
+#services .section-menu .fourth{
+	width: 190px;
+}
+#services .section-menu .fifth{
+	width: 191px;
+}
+#services .section-menu .six{
+	width: 190px;
+}
+#services .section-menu a{
+	display: inline;
+	text-decoration: none;
+	color:black;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	height: 72px;
+
+
+}
+
+
+#services .section-menu:hover{
+	background-color: #18cfab;
+	font-family: 'Montserrat-Bold';
+	font-size: 16px;
+	color: white;
+	max-width: 100%;
+
+}
+
+
+#services .work{
+	display: inline;
+	padding: 0;
+	margin-top: 26px;
+	width:193px;
+	height:auto;
+	margin-right: 20px;
+
+}
+
+
+#services .lorem{
+	display: inline;
+	font-size: 14px;
+	font-family: 'Montserrat-Light';
+	float: right;
+	margin-top:-142px;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid #18cfab;
+}
+#services .first:hover::after{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid #18cfab;
+	content: '';
+	display: block;
+	clear: both;
+	bottom:-10px;
+	right:87px;
+}
+#services .second:hover::after{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid #18cfab;
+	content: '';
+	display: block;
+	clear: both;
+	bottom:-10px;
+	right:87px;
+}
+#services .third:hover::after{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid #18cfab;
+	content: '';
+	display: block;
+	clear: both;
+	bottom:-10px;
+	right:87px;
+}
+#services .fourth:hover::after{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid #18cfab;
+	content: '';
+	display: block;
+	clear: both;
+	bottom:-10px;
+	right:87px;
+}
+#services .fifth:hover::after{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid #18cfab;
+	content: '';
+	display: block;
+	clear: both;
+	bottom:-10px;
+	right:87px;
+}
+#services .six:hover::after{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid #18cfab;
+	content: '';
+	display: block;
+	clear: both;
+	bottom:-10px;
+	right:87px;
+}
+/*==== Section #services End ====*/
+/*-------------------------------*/
+
+/*---------------------------------*/
+/*==== Section #purchase Start ====*/
+
+/*==== Section #purchase End ====*/
+/*-------------------------------*/
+
+/*-----------------------------*/
+/*==== Section #news Start ====*/
+
+/*==== Section #news End ====*/
+/*---------------------------*/
+
+/*---------------------------------*/
+/*==== Section #blocks-2 Start ====*/
+
+/*==== Section #blocks-2 End ====*/
+/*-------------------------------*/
+
+/*--------------------------------*/
+/*==== Section #pricing Start ====*/
+
+/*==== Section #pricing End ====*/
+/*------------------------------*/
+
+/*-------------------------------------*/
+/*==== Section #testimonials Start ====*/
+
+/*==== Section #testimonials End ====*/
+/*-----------------------------------*/
+
+/*---------------------------------*/
+/*==== Section #our-team Start ====*/
+
+/*==== Section #our-team End ====*/
+/*-------------------------------*/
+
+/*-------------------------------------*/
+/*==== Section #clean-design Start ====*/
+
+/*==== Section #clean-design End ====*/
+/*-----------------------------------*/
+
+/*--------------------------------------*/
+/*==== Section #keep-in-touch Start ====*/
+
+/*==== Section #keep-in-touch End ====*/
+/*------------------------------------*/
+
+/*----------------------*/
+/*==== Footer Start ====*/
+
+/*==== Footer End ====*/
+/*--------------------*/
